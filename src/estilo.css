@@ -1,0 +1,63 @@
+  /* Estilos personalizados para rolagem suave */
+  html {
+      scroll-behavior: smooth;
+  }
+
+  @keyframes fadeInDown {
+      from {
+          opacity: 0;
+          transform: translateY(-20px);
+      }
+
+      to {
+          opacity: 1;
+          transform: translateY(0);
+      }
+  }
+
+  @keyframes fadeInUp {
+      from {
+          opacity: 0;
+          transform: translateY(20px);
+      }
+
+      to {
+          opacity: 1;
+          transform: translateY(0);
+      }
+  }
+
+  .animate-fade-in-down {
+      animation: fadeInDown 1s ease-out forwards;
+  }
+
+  .animate-fade-in-up {
+      animation: fadeInUp 1s ease-out forwards;
+  }
+
+  header .container img {
+      width: 60px;
+      border-radius: 50px;
+      display: inline;
+  }
+
+  header .container a {
+      font-size: 16px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: rgb(70, 68, 68);
+
+  }
+
+  #hero {
+      background-image: url("imagens/miracema1.jpg");      
+      opacity: 0.6;     
+  }
+  #hero h1 {
+    color: rgb(180, 217, 241);
+   
+  }
+    #hero p {
+    color:rgb(180, 217, 241);
+   
+  }
+  
